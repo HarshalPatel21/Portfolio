@@ -2,10 +2,18 @@ import React from "react";
 import StardrewValleyImg from "../assets/StardrewValley.png";
 import MovieRecommenderImg from "../assets/Movie Recommender .png";
 import RedditCloneImg from "../assets/RedditClone.png";
+import InterviewlyImg from "../assets/Interviewly.png"
+import PDFQueryImg from "../assets/PDF_Query.png"
 import { Icons } from "./Svgs/Icons";
 
 function Projects() {
   const projectStacks = [
+    {
+      title: "Interviewly",
+      techStack: ["NextJS", "Firebase","Prisma","Zod","NodeJS"],
+      img: InterviewlyImg,
+      githubLink:"https://github.com/HarshalPatel21/interview-prep",
+    },
     {
       title: "Reddit Clone Website",
       techStack: ["NextJS", "MySQL", "Prisma", "Tailwind","React"],
@@ -13,16 +21,22 @@ function Projects() {
       githubLink:"https://github.com/HarshalPatel21/Reddit-Clone",
     },
     {
-      title: "Movie Recommender",
-      techStack: ["Python", "Scikit", "Pandas","Streamlit"],
-      img: MovieRecommenderImg,
-      githubLink:"https://github.com/HarshalPatel21/Movie_recommender",
-    },
-    {
       title: "Stardrew Valley Clone",
       techStack: ["Python", "Pygame"],
       img: StardrewValleyImg,
       githubLink:"https://github.com/HarshalPatel21/Stardew-Valley-in-python",
+    },
+    {
+      title: "PDF Query",
+      techStack: ["Python", "LangChain", "VectorDB","Streamlit"],
+      img: PDFQueryImg,
+      githubLink:"https://github.com/HarshalPatel21/PDF-Query",
+    },
+    {
+      title: "Movie Recommender",
+      techStack: ["Python", "Scikit", "Pandas","Streamlit"],
+      img: MovieRecommenderImg,
+      githubLink:"https://github.com/HarshalPatel21/Movie_recommender",
     },
   ];
 
