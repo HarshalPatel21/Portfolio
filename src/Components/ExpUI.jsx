@@ -3,7 +3,7 @@ import React from "react";
 function ExpUI(props) {
   const { logo, companyName, Designation, startDate, endDate, current } = props;
   return (
-    <div className="flex gap-6 ">
+    <div className="flex gap-6 mb-5">
       <div
         className="w-12 h-12  rounded-full bg-center bg-cover  "
         style={{ backgroundImage: `url(${logo})` }}
